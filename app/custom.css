@@ -1,0 +1,28 @@
+:root{
+    --green: #017070;
+    --orange: #E0601F;
+}
+ul {
+    list-style: none;
+}
+
+.bg-green{
+    background: var(--green);
+
+}
+.bg-orange{
+    background: var(--orange);
+
+}
+.f64{
+    font-size: 64px;
+}
+.f25{
+    font-size: 25px;
+}
+.f20{
+    font-size: 20px;
+}
+.container{
+    max-width: 1735px;
+  }
