@@ -24,7 +24,7 @@ const Navigation = () => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
+              <Nav className="m-auto">
                 <Link href="/" className="nav-link">
                   <div>
                     <Image src={homeIcon} alt="homeIcon" />
@@ -80,6 +80,7 @@ const Navigation = () => {
                   <span>Blog</span>
                 </Link>
               </Nav>
+              <Link href="order-now " className="order-now bg-green txt-white">Order Now</Link>
             </Navbar.Collapse>
           </Container>
         </Navbar>

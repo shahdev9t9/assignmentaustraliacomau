@@ -1,3 +1,10 @@
+import AssignmentWriting from '@/components/AssignmentWriting';
+import Feature from '@/components/Feature';
+import Form from '@/components/Form';
+import Home from '@/components/Home';
+import KeyTopic from '@/components/KeyTopic';
+import ServiceAssignment from '@/components/ServiceAssignment';
+import StudentAssignment from '@/components/StudentAssignment';
 import React from 'react'
 
 
@@ -9,7 +16,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      
+      <Home/>
+      <Form/>
+      <StudentAssignment/>
+      <ServiceAssignment/>
+      <AssignmentWriting/>
+      <Feature/>
+      <KeyTopic/>
     </>
   )
 }
