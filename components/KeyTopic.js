@@ -9,7 +9,7 @@ const KeyTopic = () => {
     <>
       <section className='key-point'>
          <Container>
-            <Row>
+            <Row className='align-items-center'>
                 <Col lg={8}>
                   <p>Assignment Key Topic</p>
                   <ul className='list1'>
