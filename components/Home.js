@@ -50,12 +50,12 @@ const Home = () => {
                         <span>Partial Payment Plan</span>
                     </li>
                  </ul>
-                 <div className='pt-5 d-flex gap-5'>
+                 <div className='home-button  d-flex gap-5'>
                     <Link href="" className='order-now bg-orange txt-white'>Order Now</Link>
                     <Link href="" className='live-chat bg-green txt-white'>Live Chat</Link>
 
                  </div>
-                 <Image src={batches} alt='batches' className='my-5' />
+                 <Image src={batches} alt='batches' className='uni-batches my-xxl-5 my-4' />
                 </Col>
                 <Col lg={5}>
                  <Image src={homeright} alt='homeright' className="home-right" />

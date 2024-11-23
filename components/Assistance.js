@@ -8,7 +8,7 @@ const Assistance = () => {
     <>
       <section className="assistance">
         <Container>
-          <Row className="justify-content-center text-center align-items-center my-lg-5 my-4">
+          <Row className="justify-content-center text-center align-items-center mb-lg-5 mb-4">
             <Col lg={10}>
               <h3 className="f60 fw-bold ">
                 Why students order last minute assistance with assignments from
@@ -84,7 +84,7 @@ const Assistance = () => {
              </div>
             </Col>
           </Row>
-          <Row className="justify-content-center text-center align-items-center mb-lg-5 mb-4">
+          <Row className="justify-content-center text-center align-items-center my-lg-5 my-4">
             <Col lg={10}>
              <p className="f64 fw-bold mb-lg-4 mb-3 lh-sm">Why students order last minute assistance with assignments from AU</p>
              <p className="f20">

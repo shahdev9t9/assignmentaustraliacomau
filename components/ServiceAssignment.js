@@ -12,7 +12,7 @@ const ServiceAssignment = () => {
     <>
       <section className="service-assignment">
         <Container>
-          <Row className="justify-content-center align-items-center text-center mb-5">
+          <Row className="justify-content-center align-items-center text-center mb-lg-5 mb-2">
             <Col lg={9}>
               <h2 className="f64 fw-bold ">
                 Why students order last minute assistance with assignments from
@@ -21,7 +21,7 @@ const ServiceAssignment = () => {
             </Col>
           </Row>
           <Row>
-            <Col lg={4}>
+            <Col xl={4}>
               <ul>
                 <li>
                   <Image src={personlized} alt="personlized" />
@@ -58,10 +58,10 @@ const ServiceAssignment = () => {
                 </li>
               </ul>
             </Col>
-            <Col lg={4}>
-              <Image src={teamMember} alt="teamMember" />
+            <Col xl={4}>
+              <Image src={teamMember} alt="teamMember" className="teamMember" />
             </Col>
-            <Col lg={4}>
+            <Col xl={4}>
               <ul>
                 <li>
                   <Image src={personlized} alt="personlized" />

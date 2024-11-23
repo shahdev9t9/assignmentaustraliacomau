@@ -1,0 +1,394 @@
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1400px;
+    }
+
+    .f64 {
+
+        font-size: 54px;
+    }
+
+    .home .home-right {
+        width: 780px;
+        height: auto;
+        position: relative;
+        right: 88px;
+    }
+
+    .home ul,
+    .home p {
+        padding-right: 50px;
+    }
+
+
+    section.home ul,
+    .home-button {
+        padding-top: 10px;
+    }
+
+    section.student-assignment .right-content img,
+    img.teamMember,
+    .key-point img,
+    .cta img {
+
+        width: 100%;
+        height: auto;
+    }
+
+    .f20,
+    .student-assignment .left-content ul li span,
+    section.service-assignment ul li span,
+    .tab_box p,
+    section.key-point .list1 li span,
+    section.key-point .list2 li,
+    .faq_box p,
+    footer ul li a span {
+
+
+
+
+        font-size: 16px;
+
+    }
+
+    footer ul li a {
+        font-size: 15px;
+        padding-right: 10px;
+    }
+
+    a.live-chat,
+    a.order-now,
+    .faq_box span,
+    footer ul li a p {
+
+        font-size: 18px;
+    }
+
+    .form_box div span,
+    .form a.submit {
+
+        font-size: 34px;
+    }
+
+    .form_box div p {
+        font-size: 30px;
+    }
+
+    section.form h2 {
+        font-size: 65px;
+    }
+
+    section.service-assignment ul li p,
+    .cta a.email {
+        font-size: 26px;
+
+    }
+
+    .assignment-writing .nav-link {
+        font-size: 30px;
+        width: 600px;
+
+    }
+
+    .feature-box p,
+    .f60,
+    section.expert .content span {
+
+        font-size: 40px;
+    }
+
+    .feature-box {
+        width: 200px;
+        height: 200px;
+    }
+
+    .feature-box span {
+        font-size: 22px;
+    }
+
+    section.assistance ul li,
+    .testimonial .nav-link span {
+
+        font-size: 20px;
+    }
+
+    section.key-point p {
+        font-size: 64px;
+    }
+
+    section.cta .content .whatsapp,
+    section.cta .content .live-chat {
+        font-size: 22px;
+        width: 210px;
+        height: 48px;
+    }
+
+    section.cta .content .whatsapp img,
+    section.cta .content .live-chat img,
+    a.email {
+        width: 60px;
+    }
+
+    .home_box img {
+        width: auto;
+    }
+
+    .home-review .left-content div {
+        width: 400px;
+        font-size: 40px;
+    }
+
+    .home_box {
+        height: 550px;
+    }
+
+    .testimonial .nav-link span {
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .testimonial .nav-link img {
+        width: 80px;
+        height: 80px;
+    }
+
+    section.process .heading {
+        font-size: 55px;
+    }
+
+    .faq_box {
+        width: 410px;
+    }
+
+    section.faq img {
+        width: 400px;
+        height: auto;
+    }
+
+    section.expert.py-3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .choose-us input[type="search"],
+    .choose-us .searching {
+        height: 75px;
+    }
+
+
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1280px;
+    }
+
+    .f25 {
+        font-size: 20px;
+    }
+
+    header a.nav-link {
+
+        width: 133px;
+        font-size: 14px;
+        margin: 8px;
+    }
+
+    .top-social img {
+        width: 31px;
+        height: 30px;
+    }
+
+    .home .home-right {
+        width: 640px;
+    }
+
+    .f64 {
+        font-size: 44px;
+    }
+
+    .f22 {
+        font-size: 18px;
+    }
+
+    .form_box div p {
+        font-size: 22px;
+    }
+
+    .form_box div span,
+    .form a.submit {
+        font-size: 28px;
+    }
+
+    .cta .content span {
+        font-size: 64px;
+    }
+
+    section.assistance ul li,
+    .testimonial .nav-link span,
+    section.assistance ul li ul li,
+    .list1 p  , .tab-pane div:nth-child(1) ul li span ,
+    section.expert .content p 
+    
+    {
+
+
+        font-size: 16px;
+    }
+
+    section.assistance ul li , .tab-pane div:nth-child(1) ul li p {
+        
+        padding-bottom: 25px;
+    }
+
+    .payment-method {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .f64,
+    .f60,
+    .cta .content span  ,  .home-review .left-content div p ,  .choose-us .left-content p  , section.expert .content span {
+
+        font-size: 24px;
+
+    }
+
+    .f22,
+    section.home ul li   .choose-us .left-content ul li span:nth-child(2) {
+        
+
+        font-size: 14px;
+    }
+
+    section.home ul {
+        grid-template-columns: auto auto;
+    }
+
+    .uni-batches {
+        width: 500px;
+        height: auto;
+    }
+
+    .home .home-right {
+        width: 488px;
+        /* bottom: 50px; */
+    }
+
+    header a.nav-link {
+        width: 120px;
+        font-size: 14px;
+        margin: 3px;
+    }
+
+    .home a.order-now {
+        padding: 10px 24px;
+    }
+
+    a.live-chat,
+    a.order-now,
+    .student-assignment .left-content ul li span,
+    .f20,
+    .tab_box p {
+        font-size: 14px;
+    }
+
+    section.form h2 {
+        font-size: 40px;
+    }
+
+    header a.nav-link div {
+
+        width: 37px;
+    }
+
+    .student-assignment .left-content {
+        padding-left: 0px;
+    }
+
+    img.teamMember {
+        width: 70%;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .assignment-writing .nav-link {
+        font-size: 20px;
+        width: 400px;
+    }
+
+    .cta {
+        background: url("../public/images/CtaBg.webp");
+    }
+
+    .home-review .left-content div {
+        width: 290px;
+        font-size: 40px;
+        height: 90px;
+    }
+
+    .home-review .left-content {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        margin-top: 30px;
+    }
+    .home-review .left-content div img{
+        width: 200px;
+        height: auto;
+    }
+    .choose-us .left-content {
+        background: var(--white);
+        padding: 10px;
+        width: 400px;
+        margin-top: 30px;
+    }
+    .faq .swiper-wrapper{
+        display: flex;
+    }
+
+}
+@media (max-width: 576px) {
+    section.home ul {
+        grid-template-columns: auto ;
+    }
+    .uni-batches ,.home .home-right {
+        width: 100%;
+        display: block;
+        margin: auto;
+        right: 0px;
+    }
+    .form_box {
+        margin-bottom: 20px;
+    }
+    .student-assignment .left-content img{
+        display: none;
+    }
+    section.service-assignment ul li{
+        display: block  ;
+    }
+    .assignment-writing .nav-link {
+
+        width: auto;
+    }
+    section.key-point p ,.home_box span {
+       
+        font-size: 26px;
+    }
+    .cta a.email {
+     font-size: 18px;
+    }
+    .choose-us .left-content{
+        width: auto;
+    }
+    section.expert .content span{
+        line-height: inherit;
+    }
+    
+}

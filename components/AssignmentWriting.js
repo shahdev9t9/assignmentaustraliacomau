@@ -110,7 +110,7 @@ const AssignmentWriting = () => {
                             .
                           </p>
                         </div>
-                        <div className="pt-3 d-flex justify-content-end gap-5">
+                        <div className="pt-3 d-flex justify-content-end gap-lg-5 gap-2">
                           <Link
                             href=""
                             className="order-now bg-orange txt-white"
@@ -164,7 +164,7 @@ const AssignmentWriting = () => {
                             .
                           </p>
                         </div>
-                        <div className="pt-3 d-flex justify-content-end gap-5">
+                        <div className="pt-3 d-flex justify-content-end gap-lg-5 gap-2">
                           <Link
                             href=""
                             className="order-now bg-orange txt-white"
@@ -218,7 +218,7 @@ const AssignmentWriting = () => {
                             .
                           </p>
                         </div>
-                        <div className="pt-3 d-flex justify-content-end gap-5">
+                        <div className="pt-3 d-flex justify-content-end gap-lg-5 gap-2">
                           <Link
                             href=""
                             className="order-now bg-orange txt-white"
@@ -272,7 +272,7 @@ const AssignmentWriting = () => {
                             .
                           </p>
                         </div>
-                        <div className="pt-3 d-flex justify-content-end gap-5">
+                        <div className="pt-3 d-flex justify-content-end gap-lg-5 gap-2">
                           <Link
                             href=""
                             className="order-now bg-orange txt-white"
@@ -326,7 +326,7 @@ const AssignmentWriting = () => {
                             .
                           </p>
                         </div>
-                        <div className="pt-3 d-flex justify-content-end gap-5">
+                        <div className="pt-3 d-flex justify-content-end gap-lg-5 gap-2">
                           <Link
                             href=""
                             className="order-now bg-orange txt-white"

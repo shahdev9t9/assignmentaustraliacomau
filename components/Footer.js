@@ -103,7 +103,7 @@ const Footer = () => {
               </Link>
             </li>
            </ul>
-           <Image src={PaymentMethod} alt='PaymentMethod' />
+           <Image src={PaymentMethod} alt='PaymentMethod' className='payment-method' />
           </Col>
          </Row>
 

@@ -11,7 +11,7 @@ const ChooseUs = () => {
     <section className='choose-us'>
       <Container>
         <Row>
-            <Col lg={8} className='text-white'>
+            <Col xl={8} className='text-white'>
              <span className='f64 fw-bold'>
              1 Million+ Assignment Samples Available For FREE!
              </span>
@@ -31,7 +31,7 @@ const ChooseUs = () => {
              </div>
 
             </Col>
-            <Col lg={4}>
+            <Col xl={4}>
              <div className='left-content'>
                <p>Why Choose Us</p>
                <ul>

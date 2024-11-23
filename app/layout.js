@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 import "./custom.css";
+import "./responsive.css";
 import Footer from "@/components/Footer";
 
 import {Josefin_Sans } from 'next/font/google';

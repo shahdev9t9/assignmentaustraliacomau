@@ -4,7 +4,8 @@
     --white: #fff;
     --black: #0000;
     --boxitemSkyblueGradient: linear-gradient(58deg, #00cad4, #0c7eb0 95%);
-    --boxitemGradient: linear-gradient(58deg, #bfbfbf 44%, #c3c3c3 58%, #d0d0d0 72%, #e4e4e4 87%, #fff);
+    --boxitemGradient: linear-gradient(58deg, #d0d0d0 44%, #d0d0d0 58%, #d0d0d0 72%, #e4e4e4 87%, #fff)
+    --boxitemYellowOrange: linear-gradient(90deg, rgba(255,204,0,1) 32%, rgba(255,159,2,1) 37%);;
 
 }
 ul {

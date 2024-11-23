@@ -19,7 +19,7 @@ const Form = () => {
               </p>
             </Col>
             <Col lg={6}>
-            <div className="d-flex gap-4 justify-content-between align-items-center">
+            <div className="d-lg-flex gap-4 justify-content-between align-items-center">
 
               <div className="form_box">
                 <label>Name</label>
@@ -34,7 +34,7 @@ const Form = () => {
           </Row>
           <Row>
             <Col>
-            <div className="d-flex gap-5 justify-content-between align-items-center">
+            <div className="d-lg-flex gap-xl-5 gap-3 justify-content-between align-items-center">
 
               <div className="form_box">
                 <label>Type of paper</label>
@@ -55,8 +55,8 @@ const Form = () => {
                  </select>
               </div>
               <div className="bg-transparent form_box">
-                <div className="d-flex justify-content-between">
-                    <p>
+                <div className="d-flex align-items-center justify-content-between">
+                    <p className="m-0">
                     Total Price
                     </p>
                     <span>

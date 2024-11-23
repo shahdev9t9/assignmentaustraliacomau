@@ -17,7 +17,7 @@ const Faq = () => {
         <Container>
           <Row className="mb-4">
             <Col>
-              <div className="d-flex align-items-center justify-content-center gap-4">
+              <div className="d-lg-flex align-items-center justify-content-center gap-4">
                 <h3>FAQ</h3>
                 <p>
                   When you can’t find anyone to help you with your papers and
@@ -49,6 +49,20 @@ const Faq = () => {
                 scrollbar={{ draggable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log("slide change")}
+                breakpoints={{
+                  240: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                  },
+                  768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                  },
+                  1224: {
+                    slidesPerView: 6,
+                    spaceBetween: 20,
+                  },
+                }}
               >
                 <SwiperSlide>
                   <div className="faq_box">
@@ -95,7 +109,7 @@ const Faq = () => {
                     <span className="no">01</span>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className="d-xl-block d-none">
                   <Image src={faq} alt="faq" />
                 </SwiperSlide>
                 <SwiperSlide>

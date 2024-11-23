@@ -16,17 +16,17 @@ const Topbar = () => {
         <Container>
             <Row>
                 <Col>
-                <div className='d-flex align-items-center justify-content-between'>
+                <div className='d-lg-flex align-items-center justify-content-between'>
             
-                    <Link href=""  className='d-flex align-items-center gap-2 text-white'>
+                    <Link href=""  className='d-lg-flex d-none align-items-center gap-2 text-white'>
                     <Image src={email} alt='email' />
                     <span className='f25 '>assignmentshelpaustralia.com.au</span>
                     
                     </Link>
-              <p className='f25 text-white  m-0'>
+              <p className='f25 text-white d-lg-block  d-none   m-0'>
               Welcome to assignmentshelpaustralia.com.au
               </p>
-             <div className='d-flex gap-2'>
+             <div className='d-flex justify-content-center gap-2 top-social'>
                 <Image  src={Facebook} alt='Facebook' />
                 <Image  src={Instagram} alt='Instagram' />
                 <Image  src={LinkedIn} alt='LinkedIn' />

@@ -33,7 +33,7 @@ const HomeReview = () => {
             </Col>
           </Row>
           <Row>
-            <Col lg={4}>
+            <Col xl={4}>
               <div className="left-content">
                 <div>
                   <p>assignmenthelp</p>
@@ -46,7 +46,7 @@ const HomeReview = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={8}>
+            <Col xl={8}>
               <Swiper
                 // install Swiper modules
                 modules={[Navigation, Pagination, Scrollbar, A11y]}

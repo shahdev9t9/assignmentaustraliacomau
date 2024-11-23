@@ -14,13 +14,13 @@ import Link from "next/link";
 const Cta = () => {
   return (
     <>
-      <section className="cta pt-4 pb-0 ps-4">
+      <section className="cta pt-4 pb-0 ps-lg-4">
         <Container fluid>
           <Row>
-            <Col lg={3}>
-              <Image src={LeftImg} alt="LeftImg" />
+            <Col lg={3} className="d-xl-block d-none">
+              <Image src={LeftImg} alt="LeftImg" className="left-img" />
             </Col>
-            <Col lg={5}>
+            <Col xl={5}>
               <div className="content">
                 <span>25% OFF & 100% Cashback</span>
                 <p>
@@ -32,20 +32,20 @@ const Cta = () => {
                 <Image src={gmail} alt="gmail" className="mb-3" />
                   info@assignmentshelpaustralia.com.au
                 </Link>
-                <div className="pt-5 d-flex gap-5">
+                <div className="pt-xl-5 pb-xl-0 pb-3 d-lg-flex gap-5">
           
                   <Link href="" className="live-chat bg-green txt-white">
                   <Image src={chatIcon} alt="chatIcon" />
                     Live Chat
                   </Link>
-                  <Link href="" className="whatsapp bg-orange txt-white">
+                  <Link href="" className="whatsapp bg-orange txt-white mt-lg-0 mt-3">
                   <Image src={whatsappIcon} alt="whatsapp" />
                   Whatsapp
                   </Link>
                 </div>
               </div>
             </Col>
-            <Col lg={4}>
+            <Col lg={4} className="d-xl-block d-none" >
              <Image src={CtaRIght} alt="CtaRIght" />
             </Col>
           </Row>

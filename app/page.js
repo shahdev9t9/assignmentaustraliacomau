@@ -34,11 +34,13 @@ const page = () => {
       <Cta/>
       <Assistance/>
       <HomeReview/>
+      <Process/>
       <ChooseUs/>
       <Testimonial/>
+     
       <ExpertFrame/>
       <Faq/>
-      <Process/>
+
     </>
   )
 }

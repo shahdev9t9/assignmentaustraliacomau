@@ -11,10 +11,10 @@ const ExpertFrame = () => {
       <section className="expert py-3">
         <Container fluid className="me-0 pe-0">
           <Row>
-            <Col lg={6}>
+            <Col xl={6} className="d-xl-block d-none">
               <Image src={frame} alt="frame" />
             </Col>
-            <Col>
+            <Col xl={6}>
               <div className="content">
                 <span>
                   It's Time To Find The Right Expert to Prepare Your Assignment!

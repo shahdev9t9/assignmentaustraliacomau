@@ -14,7 +14,7 @@ const StudentAssignment = () => {
     <section className='student-assignment'>
       <Container fluid className='me-0 pe-0'>
         <Row>
-          <Col lg={7} >
+          <Col xl={7} >
           <div className='left-content'>
 
            <h2 className='f64 fw-bold'>
@@ -58,14 +58,14 @@ const StudentAssignment = () => {
                 <span>Get the project, check its quality, and download it.</span>
             </li>
            </ul>
-           <div className='mt-5 d-flex gap-5'>
+           <div className='mt-xxl-5 mt-3 d-flex align-items-center gap-xxl-5 gap-2'>
                     <Link href="" className='order-now bg-orange txt-white'>Order Now</Link>
                     <Link href="" className='live-chat bg-green txt-white'>Live Chat</Link>
                      <Image src={Certified} alt='certified' />
                  </div>
           </div>
           </Col>
-          <Col lg={5} className='pe-0'>
+          <Col xl={5} className='pe-0 d-xl-block d-none'>
           <div className='right-content'>
 
            <Image src={studentRight} alt='studentRight'/>

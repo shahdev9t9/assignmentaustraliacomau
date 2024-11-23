@@ -1,15 +1,15 @@
-'use client'
+"use client";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 const Feature = () => {
   return (
@@ -29,57 +29,82 @@ const Feature = () => {
               <Swiper
                 // install Swiper modules
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={50}
+                spaceBetween={20}
                 slidesPerView={6}
                 navigation
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log("slide change")}
+                breakpoints={{
+                  240: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                  },
+                  768: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                  },
+                  1224: {
+                    slidesPerView: 6,
+                    spaceBetween: 20,
+                  },
+                }}
               >
                 <SwiperSlide>
-                    <div className="feature-box">
-                       <span className="title">Title page</span>
-                        <span>for <p>$6.55</p> </span>
-                        <p>FREE</p>
-                    </div>
+                  <div className="feature-box">
+                    <span className="title">Title page</span>
+                    <span>
+                      for <p>$6.55</p>{" "}
+                    </span>
+                    <p>FREE</p>
+                  </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="feature-box">
-                       <span className="title">Title page</span>
-                        <span>for <p>$6.55</p> </span>
-                        <p>FREE</p>
-                    </div>
+                  <div className="feature-box">
+                    <span className="title">Title page</span>
+                    <span>
+                      for <p>$6.55</p>{" "}
+                    </span>
+                    <p>FREE</p>
+                  </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="feature-box">
-                       <span className="title">Title page</span>
-                        <span>for <p>$6.55</p> </span>
-                        <p>FREE</p>
-                    </div>
+                  <div className="feature-box">
+                    <span className="title">Title page</span>
+                    <span>
+                      for <p>$6.55</p>{" "}
+                    </span>
+                    <p>FREE</p>
+                  </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="feature-box">
-                       <span className="title">Title page</span>
-                        <span>for <p>$6.55</p> </span>
-                        <p>FREE</p>
-                    </div>
+                  <div className="feature-box">
+                    <span className="title">Title page</span>
+                    <span>
+                      for <p>$6.55</p>{" "}
+                    </span>
+                    <p>FREE</p>
+                  </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="feature-box">
-                       <span className="title">Title page</span>
-                        <span>for <p>$6.55</p> </span>
-                        <p>FREE</p>
-                    </div>
+                  <div className="feature-box">
+                    <span className="title">Title page</span>
+                    <span>
+                      for <p>$6.55</p>{" "}
+                    </span>
+                    <p>FREE</p>
+                  </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="feature-box">
-                       <span className="title">Title page</span>
-                        <span>for <p>$6.55</p> </span>
-                        <p>FREE</p>
-                    </div>
+                  <div className="feature-box">
+                    <span className="title">Title page</span>
+                    <span>
+                      for <p>$6.55</p>{" "}
+                    </span>
+                    <p>FREE</p>
+                  </div>
                 </SwiperSlide>
-                
                 ...
               </Swiper>
             </Col>

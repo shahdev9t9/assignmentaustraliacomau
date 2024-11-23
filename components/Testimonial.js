@@ -63,7 +63,7 @@ const Testimonial = () => {
                   
                 </Nav>
               </Col>
-              <Col lg={10}>
+              <Col xl={10} lg={12}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
                     <div>
