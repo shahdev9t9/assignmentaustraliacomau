@@ -4,18 +4,20 @@ import { Col, Container, Row } from "react-bootstrap";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 
-const Form = () => {
+const Form = ({FormContent}) => {
   return (
     <>
       <section className="form">
         <Container>
-          <Row className="align-items-center mb-3">
+          <Row className="align-items-center mb-lg-3">
             <Col lg={6}>
-              <h2>Place your order</h2>
+              <h2>
+                {FormContent.heading}
+              </h2>
               <p className="f20 txt-white">
-                Austrila Essay Service , where quality meets expectations! Get
-                ready to achieve your desired grades with the best assignment
-                help service provider
+              {FormContent.para}
+
+        
               </p>
             </Col>
             <Col lg={6}>

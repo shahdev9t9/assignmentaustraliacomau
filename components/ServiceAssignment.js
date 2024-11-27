@@ -7,7 +7,7 @@ import teamMember from "../public/images/teamMember.webp";
 
 import Image from "next/image";
 
-const ServiceAssignment = () => {
+const ServiceAssignment = ({ServiceAssignmentContent}) => {
   return (
     <>
       <section className="service-assignment">
@@ -15,87 +15,47 @@ const ServiceAssignment = () => {
           <Row className="justify-content-center align-items-center text-center mb-lg-5 mb-2">
             <Col lg={9}>
               <h2 className="f64 fw-bold ">
-                Why students order last minute assistance with assignments from
-                usa
+                {ServiceAssignmentContent.heading}
+          
               </h2>
             </Col>
           </Row>
           <Row>
             <Col xl={4}>
               <ul>
+              {ServiceAssignmentContent.list1.map((item, index) => (
                 <li>
-                  <Image src={personlized} alt="personlized" />
+                  <Image src={item.icon } alt="personlized" />
                   <div>
-                    <p>Personalized Assistance</p>
+                    <p> {item.title} </p>
                     <span>
-                      We provide professional dissertation help in the UK. We
-                      provide our clients with original, high-quality work at an
-                      accessible price for dissertation help.{" "}
+                    {item.content}
+                 
                     </span>
                   </div>
                 </li>
-                <li>
-                  <Image src={guaranteed} alt="guaranteed" />
-                  <div>
-                    <p>Personalized Assistance</p>
-                    <span>
-                      We provide professional dissertation help in the UK. We
-                      provide our clients with original, high-quality work at an
-                      accessible price for dissertation help.{" "}
-                    </span>
-                  </div>
-                </li>
-                <li>
-                  <Image src={subject} alt="subject" />
-                  <div>
-                    <p>Personalized Assistance</p>
-                    <span>
-                      We provide professional dissertation help in the UK. We
-                      provide our clients with original, high-quality work at an
-                      accessible price for dissertation help.{" "}
-                    </span>
-                  </div>
-                </li>
+                   ))}
+               
               </ul>
             </Col>
             <Col xl={4}>
-              <Image src={teamMember} alt="teamMember" className="teamMember" />
+              <Image src={ServiceAssignmentContent.teamimg  } alt="teamMember" className="teamMember" />
             </Col>
             <Col xl={4}>
               <ul>
+              {ServiceAssignmentContent.list1.map((item, index) => (
                 <li>
-                  <Image src={personlized} alt="personlized" />
+                  <Image src={item.icon} alt="personlized" />
                   <div>
-                    <p>Personalized Assistance</p>
+                    <p> {item.title} </p>
                     <span>
-                      We provide professional dissertation help in the UK. We
-                      provide our clients with original, high-quality work at an
-                      accessible price for dissertation help.{" "}
+                    {item.content}
+       
                     </span>
                   </div>
                 </li>
-                <li>
-                  <Image src={guaranteed} alt="guaranteed" />
-                  <div>
-                    <p>Personalized Assistance</p>
-                    <span>
-                      We provide professional dissertation help in the UK. We
-                      provide our clients with original, high-quality work at an
-                      accessible price for dissertation help.{" "}
-                    </span>
-                  </div>
-                </li>
-                <li>
-                  <Image src={subject} alt="subject" />
-                  <div>
-                    <p>Personalized Assistance</p>
-                    <span>
-                      We provide professional dissertation help in the UK. We
-                      provide our clients with original, high-quality work at an
-                      accessible price for dissertation help.{" "}
-                    </span>
-                  </div>
-                </li>
+                          ))}
+              
               </ul>
             </Col>
           </Row>

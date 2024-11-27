@@ -52,7 +52,7 @@ const Faq = () => {
                 breakpoints={{
                   240: {
                     slidesPerView: 1,
-                    spaceBetween: 20,
+                    spaceBetween: 0,
                   },
                   768: {
                     slidesPerView: 2,

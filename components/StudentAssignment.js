@@ -3,60 +3,41 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { FaCheck } from "react-icons/fa";
 import Certified from "../public/images/Certified.webp"
-import studentRight from "../public/images/studentRight.webp"
 import Link from 'next/link';
 
 
 
-const StudentAssignment = () => {
+const StudentAssignment = ({StudentAssignmentContent}) => {
   return (
     <>
     <section className='student-assignment'>
       <Container fluid className='me-0 pe-0'>
-        <Row>
+        <Row className='align-items-end'>
           <Col xl={7} >
           <div className='left-content'>
 
            <h2 className='f64 fw-bold'>
-           Why students order last minute assistance with assignments from usa
+            {StudentAssignmentContent.heading}
+       
            </h2>
            <p className='f20'>
-           In the Austarila, around 90% of the population completes high school. Unfortunately, this percentage drastically declines to only approx 37% when it comes to higher education. One of the reasons is overly complicated coursework and a never- ending queue of assignments.In the Austarila, around 90% of the population completes high school. Unfortunately, this percentage drastically declines to only approx 37% when it comes to higher education. One of the reasons is overly complicated coursework and a never- ending queue of assignments.
+           {StudentAssignmentContent.para1}
+
+      
            </p>
            <p className='f20'>
-           In the Austarila, around 90% of the population completes high school. Unfortunately, this percentage drastically declines to only approx 37% when it comes to higher education. One of the reasons is overly complicated coursework and a never- ending queue of assignments.In the Austarila, around 90% of the population completes high school. Unfortunately, this percentage drastically declines to only approx 37% when it comes to higher education. One of the reasons is overly complicated coursework and a never- ending queue of assignments.
+           {StudentAssignmentContent.para2}
+
+
            </p>
            <ul>
+           {StudentAssignmentContent.list.map((item, index) => (
             <li>
             <FaCheck />
 
-                <span>Select the most suitable writer.</span>
+                <span> {item.span} </span>
             </li>
-            <li>
-            <FaCheck />
-
-                <span>Direct communication with a writer via online chat;</span>
-            </li>
-            <li>
-            <FaCheck />
-
-                <span>Find and fill out the application form.</span>
-            </li>
-            <li>
-            <FaCheck />
-
-                <span>Get the project, check its quality, and download it.</span>
-            </li>
-            <li>
-            <FaCheck />
-
-                <span>Find and fill out the application form.</span>
-            </li>
-            <li>
-            <FaCheck />
-
-                <span>Get the project, check its quality, and download it.</span>
-            </li>
+                     ))}   
            </ul>
            <div className='mt-xxl-5 mt-3 d-flex align-items-center gap-xxl-5 gap-2'>
                     <Link href="" className='order-now bg-orange txt-white'>Order Now</Link>
@@ -68,7 +49,7 @@ const StudentAssignment = () => {
           <Col xl={5} className='pe-0 d-xl-block d-none'>
           <div className='right-content'>
 
-           <Image src={studentRight} alt='studentRight'/>
+           <Image src={StudentAssignmentContent.imgRight} alt='studentRight'/>
           </div>
           </Col>
 

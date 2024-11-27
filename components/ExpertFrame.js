@@ -8,7 +8,7 @@ import Link from "next/link";
 const ExpertFrame = () => {
   return (
     <>
-      <section className="expert py-3">
+      <section className="expert py-3 ">
         <Container fluid className="me-0 pe-0">
           <Row>
             <Col xl={6} className="d-xl-block d-none">

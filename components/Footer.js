@@ -11,6 +11,7 @@ import XICon from "../public/images/XICon.svg"
 import Image from 'next/image'
 import Link from 'next/link'
 import CopyRights from './CopyRights'
+import FixedIcon from './FixedIcon'
 
 
 const Footer = () => {
@@ -110,6 +111,7 @@ const Footer = () => {
       </Container>
     </footer>
       <CopyRights/>
+      <FixedIcon/>
     </>
   )
 }

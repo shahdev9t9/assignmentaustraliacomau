@@ -11,28 +11,27 @@ import chatIcon from "../public/images/chatIcon.svg";
 
 import Link from "next/link";
 
-const Cta = () => {
+const Cta = ({CtaContent}) => {
   return (
     <>
       <section className="cta pt-4 pb-0 ps-lg-4">
         <Container fluid>
-          <Row>
+          <Row className="align-items-end">
             <Col lg={3} className="d-xl-block d-none">
-              <Image src={LeftImg} alt="LeftImg" className="left-img" />
+              <Image src={CtaContent.LeftImg} alt="LeftImg" className="left-img" />
             </Col>
             <Col xl={5}>
               <div className="content">
-                <span>25% OFF & 100% Cashback</span>
+                <span> {CtaContent.heading}  </span>
                 <p>
-                  We provide professional dissertation help in the UK. We
-                  provide our clients with original, high-quality work at an
-                  accessible price for dissertation help.
+                {CtaContent.para} 
+          
                 </p>
                 <Link href="" className="email">
                 <Image src={gmail} alt="gmail" className="mb-3" />
                   info@assignmentshelpaustralia.com.au
                 </Link>
-                <div className="pt-xl-5 pb-xl-0 pb-3 d-lg-flex gap-5">
+                <div className="pb-xl-5 pb-xl-0 pb-3 d-lg-flex gap-5">
           
                   <Link href="" className="live-chat bg-green txt-white">
                   <Image src={chatIcon} alt="chatIcon" />
@@ -46,7 +45,7 @@ const Cta = () => {
               </div>
             </Col>
             <Col lg={4} className="d-xl-block d-none" >
-             <Image src={CtaRIght} alt="CtaRIght" />
+             <Image src={CtaContent.CtaRIght} alt="CtaRIght" />
             </Col>
           </Row>
         </Container>

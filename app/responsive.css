@@ -2,8 +2,24 @@
     .container {
         max-width: 1400px;
     }
+    a.order-now,  a.live-chat  {
+        padding: 10px 14px;
+    }
+    .price-plan .nav-link {
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        width: 280px;
+    
+    }    
+    .price-plan .tab-content .tab-pane .price_box div {
 
-    .f64 {
+        width: 220px;
+        height: 70px;
+    
+    }    
+
+    .f64 , section.order_now h3 , section.price-plan h2 {
 
         font-size: 54px;
     }
@@ -18,6 +34,9 @@
     .home ul,
     .home p {
         padding-right: 50px;
+    }
+    .cta .content span {
+        font-size: 74px;
     }
 
 
@@ -245,6 +264,9 @@
         width: 100%;
         height: auto;
     }
+    section.order_now h3 , section.price-plan h2{
+        font-size: 55px;
+    }
 
 }
 
@@ -352,6 +374,9 @@
     .faq .swiper-wrapper{
         display: flex;
     }
+    section.order_now h3 , section.price-plan h2{
+        font-size: 35px;
+    }
 
 }
 @media (max-width: 576px) {
@@ -367,7 +392,7 @@
     .form_box {
         margin-bottom: 20px;
     }
-    .student-assignment .left-content img{
+    .student-assignment .left-content img , section.faq h3 {
         display: none;
     }
     section.service-assignment ul li{
@@ -377,18 +402,36 @@
 
         width: auto;
     }
-    section.key-point p ,.home_box span {
+    section.key-point p ,.home_box span , .home_box .name , section.process .heading {
        
         font-size: 26px;
     }
-    .cta a.email {
+    .cta a.email ,.choose-us .searching ,.choose-us input[type="search"] {
+
      font-size: 18px;
     }
-    .choose-us .left-content{
+    .choose-us .left-content , .faq_box{
         width: auto;
     }
     section.expert .content span{
         line-height: inherit;
     }
-    
+    .assignment-writing .nav-item {
+        margin-bottom: 15px;
+    }
+    .assignment-writing .nav-link {
+        width: auto;
+        padding: 20px;
+        text-align: center;
+    }
+    .home_box ,.faq_box ,.choose-us input[type="search"], .choose-us .searching 
+  {
+        height: auto;
+    }
+    .faq_box p {
+        font-size: 14px;
+    }
+    header a.nav-link div{
+        left: 0px;
+    }
 }

@@ -1,13 +1,13 @@
-'use client'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+"use client";
+import { Pagination, A11y } from "swiper/modules";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import process from "../public/images/Process.webp";
@@ -21,17 +21,15 @@ const Process = () => {
           <Row>
             <Col xl={4}>
               <span className="heading">OUR PROCESS </span>
-              <Image src={process} alt="faq" className='d-xl-block d-none' />
+              <Image src={process} alt="faq" className="d-xl-block d-none" />
             </Col>
             <Col xl={8}>
               <Swiper
                 // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={50}
+                modules={[Pagination, A11y]}
+                spaceBetween={10}
                 slidesPerView={4}
-                navigation
                 pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log("slide change")}
               >
@@ -83,7 +81,6 @@ const Process = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  {" "}
                   <div className="process-items2">
                     <div className="borders">
                       <div className="circles">
@@ -178,7 +175,6 @@ const Process = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  {" "}
                   <div className="process-items2">
                     <div className="borders">
                       <div className="circles">
@@ -225,7 +221,6 @@ const Process = () => {
                     </div>
                   </div>
                 </SwiperSlide>
-                ...
               </Swiper>
             </Col>
           </Row>
